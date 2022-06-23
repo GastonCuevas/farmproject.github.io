@@ -33,7 +33,7 @@ export const useStyles = makeStyles((theme) => ({
     height: 500,
     alignItems: 'end',
     backgroundImage:
-      'url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2019/12/20/plwijovwbm4jfialzvv5/gaming-in-2020-best-games)'
+      'url(https://images3.alphacoders.com/190/thumb-1920-190787.jpg)'
   },
   title: {
     color: '#ffff',
