@@ -7,8 +7,9 @@ import logo from '~/assets/logo.png'
 import view1 from '~/assets/view1.png'
 import view2 from '~/assets/view2.png'
 import view3 from '~/assets/view3.png'
-import { NavBar, Footer } from '~/views/pages/shared'
+import { NavBar, Footer, MainLayout } from '~/views/pages/shared'
 import { useStyles } from './HomePage.style'
+
 export const HomePage = () => {
   const classes = useStyles()
   const settings = {
@@ -42,7 +43,7 @@ export const HomePage = () => {
     { name: 'Leche condensada', image: view3 }
   ]
   return (
-    <div className={classes.container}>
+    <MainLayout>
       <NavBar />
       <div className={classes.mainContainer}>
         <header>
@@ -75,6 +76,6 @@ export const HomePage = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </MainLayout>
   )
 }

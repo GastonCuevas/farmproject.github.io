@@ -1,13 +1,6 @@
 import { makeStyles } from '@material-ui/styles'
 
 export const useStyles = makeStyles((theme) => ({
-  container: {
-    backgroundColor: '#DDDDDD',
-    [theme.breakpoints.up('xl')]: {
-      maxWidth: 1920,
-      margin: '0 auto'
-    }
-  },
   mainContainer: {
     minHeight: '80vh',
     '& h5': {
@@ -24,6 +17,7 @@ export const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     width: '100%',
+    backgroundColor: '#ffffff',
     [theme.breakpoints.up(768)]: {
       width: '70%'
     }
