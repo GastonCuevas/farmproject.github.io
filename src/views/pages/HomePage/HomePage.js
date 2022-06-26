@@ -1,12 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import { Typography } from '@material-ui/core'
-import logo from '~/assets/logo.png'
-import view1 from '~/assets/view1.png'
-import view2 from '~/assets/view2.png'
-import view3 from '~/assets/view3.png'
 import leche from '~/assets/leche.jpg'
 import dulceLeche from '~/assets/dulceLeche.jpg'
 import queso from '~/assets/queso.jpg'
@@ -15,6 +11,8 @@ import { useStyles } from './HomePage.style'
 
 export const HomePage = () => {
   const classes = useStyles()
+  const [scrollTop, setScrollTop] = useState(0)
+  const NAVBAR_TRANSPARENT_SCROLL = 180
   const settings = {
     className: classes.slickSlider,
     dots: true,
@@ -36,18 +34,25 @@ export const HomePage = () => {
       }
     ]
   }
+
   const array = [
-    // {
-    //   name: 'League of Legends',
-    //   image: logo
-    // },
     { name: 'Leche', image: leche },
     { name: 'Dulce de leche', image: dulceLeche },
     { name: 'Queso', image: queso }
   ]
+
+  useEffect(() => {
+    const onScroll = (e) => {
+      setScrollTop(e.target.documentElement.scrollTop)
+    }
+    window.addEventListener('scroll', onScroll)
+
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [scrollTop])
+
   return (
     <MainLayout>
-      <NavBar />
+      <NavBar transparent={scrollTop < NAVBAR_TRANSPARENT_SCROLL} />
       <div className={classes.mainContainer}>
         <header>
           <div className={classes.previewImage}>

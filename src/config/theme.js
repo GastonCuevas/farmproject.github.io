@@ -1,22 +1,23 @@
 import { createTheme } from '@material-ui/core/styles'
+import { alpha } from '@material-ui/core/styles/colorManipulator'
 const defaultTheme = createTheme()
 export const theme = createTheme({
   palette: {
     // paleta de color
     background: {
-      default: '#ffff'
+      default: '#E8E8E8'
     },
     primary: {
       // modificar color
       light: '#3E00FF',
-      main: '#3E00FF',
+      main: 'rgb(248, 77, 77)',
       dark: '#3E00FF',
       contrastText: '#fff'
     },
     secondary: {
       // modificar color
-      light: '#AE00FB',
-      main: '#AE00FB',
+      light: 'rgb(227, 255, 216)',
+      main: 'rgba(107, 255, 48,0.9)',
       dark: '#AE00FB',
       contrastText: '#fff'
     },
@@ -26,6 +27,9 @@ export const theme = createTheme({
       dark: '#008410',
       contrastText: '#fff'
     }
+  },
+  utils: {
+    rgba: (color, opacity = 1) => alpha(color, opacity)
   },
   overrides: {
     MuiPaper: {
@@ -95,7 +99,7 @@ export const theme = createTheme({
   },
   typography: {
     useNextVariants: true,
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: 'Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif',
     h1: {
       fontSize: '4rem'
     },

@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/styles'
 export const useStyles = makeStyles((theme) => ({
   container: {
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: theme.palette.primary.main,
     minHeight: 100,
     padding: theme.spacing(4),
     width: '100%',

@@ -12,6 +12,9 @@ export const useStyles = makeStyles((theme) => ({
       maxWidth: 1920
     }
   },
+  appBarTransparent: {
+    backgroundColor: 'transparent'
+  },
   appName: {
     flexGrow: 1,
     textDecoration: 'none',
