@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core'
-import logo from '~/assets/logo.jpg'
-import santiProfile from '~/assets/santiagochurquina.jpeg'
-import luisProfile from '~/assets/luisbarrionuevo.jpg'
+// import logo from '~/assets/logo.jpg'
+// import santiProfile from '~/assets/santiagochurquina.jpeg'
+// import luisProfile from '~/assets/luisbarrionuevo.jpg'
 export const useStyles = makeStyles((theme) => ({
   mainContainer: {
     minHeight: '72vh',
@@ -37,44 +37,44 @@ export const useStyles = makeStyles((theme) => ({
 
     [theme.breakpoints.up('lg')]: { marginLeft: 300 }
   },
-  logo: {
-    background: `url(${logo})`,
-    width: 150,
-    height: 150,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    borderRadius: 40,
-    marginBottom: 20
-  },
-  image: {
-    '&.santiago': {
-      background: `url(${santiProfile})`,
-      width: 100,
-      height: 100,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      borderRadius: 100,
-      marginRight: theme.spacing(4),
-      [theme.breakpoints.up('lg')]: {
-        width: 150,
-        height: 150
-      }
-    },
-    '&.luis': {
-      background: `url(${luisProfile})`,
-      width: 100,
-      height: 100,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      borderRadius: 100,
-      marginRight: theme.spacing(4),
-      [theme.breakpoints.up('lg')]: {
-        width: 150,
-        height: 150
-      }
-    }
-  }
+  // logo: {
+  //   background: `url(${logo})`,
+  //   width: 150,
+  //   height: 150,
+  //   backgroundSize: 'cover',
+  //   backgroundPosition: 'center',
+  //   backgroundRepeat: 'no-repeat',
+  //   borderRadius: 40,
+  //   marginBottom: 20
+  // },
+  // image: {
+  //   '&.santiago': {
+  //     background: `url(${santiProfile})`,
+  //     width: 100,
+  //     height: 100,
+  //     backgroundSize: 'cover',
+  //     backgroundPosition: 'center',
+  //     backgroundRepeat: 'no-repeat',
+  //     borderRadius: 100,
+  //     marginRight: theme.spacing(4),
+  //     [theme.breakpoints.up('lg')]: {
+  //       width: 150,
+  //       height: 150
+  //     }
+  //   },
+  //   '&.luis': {
+  //     background: `url(${luisProfile})`,
+  //     width: 100,
+  //     height: 100,
+  //     backgroundSize: 'cover',
+  //     backgroundPosition: 'center',
+  //     backgroundRepeat: 'no-repeat',
+  //     borderRadius: 100,
+  //     marginRight: theme.spacing(4),
+  //     [theme.breakpoints.up('lg')]: {
+  //       width: 150,
+  //       height: 150
+  //     }
+  //   }
+  // }
 }))

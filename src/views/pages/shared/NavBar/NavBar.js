@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import clsx from 'clsx'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { AppBar, Toolbar, IconButton } from '@material-ui/core'
 import { Menu as MenuIcon } from '@material-ui/icons'
-import { ROUTES } from '~/views/routes'
+// import { ROUTES } from '~/views/routes'
 import { DrawerMenu } from './components'
 import { useStyles } from './NavBar.style'
 
@@ -22,9 +22,9 @@ export const NavBar = ({ transparent }) => {
           onClick={() => setOpenMenuDrawer(true)}>
           <MenuIcon />
         </IconButton>
-        <Link to={ROUTES.ROOT} className={classes.appName}>
+        {/* <Link to={ROUTES.ROOT} className={classes.appName}>
           Shadow Gluttony
-        </Link>
+        </Link> */}
       </Toolbar>
       <DrawerMenu openDrawer={openMenuDrawer} onClose={() => setOpenMenuDrawer(false)} />
     </AppBar>

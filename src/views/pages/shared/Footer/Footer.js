@@ -14,18 +14,13 @@ export const Footer = ({ altMode }) => {
         </Link>
         <ul className={classes.footerBlock}>
           <li>
-            <Link to={ROUTES.ROOT}>Inicio</Link>
+            <Link to={ROUTES.US}>About Us</Link>
           </li>
           <li>
-            <Link to={ROUTES.US}>Nosotros</Link>
-          </li>
-        </ul>
-        <ul className={classes.footerBlock}>
-          <li>
-            <Link to='/'>Registrate</Link>
+            <Link to='/2'>Gordaliza 1698 S.S.Jujuy</Link>
           </li>
           <li>
-            <Link to='/'>Iniciá Sesión</Link>
+            <Link to='/3'>Contact Us</Link>
           </li>
         </ul>
       </div>
