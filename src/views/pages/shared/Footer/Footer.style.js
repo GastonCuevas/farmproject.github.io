@@ -12,19 +12,20 @@ export const useStyles = makeStyles((theme) => ({
   },
   footerBlock: {
     display: 'inline-block',
-    paddingLeft: theme.spacing(10),
+    padding: 0,
     listStyle: 'none',
     '& li': {
       paddingBottom: theme.spacing()
     },
-    '& a': {
+    '& a, & p': {
       color: '#ffff',
       fontSize: '1rem',
       textDecoration: 'none',
       fontWeight: 500
     },
     [theme.breakpoints.up('md')]: {
-      margin: 0
+      margin: 0,
+      paddingLeft: theme.spacing(10)
     }
   },
   innerContainer: {
@@ -38,5 +39,9 @@ export const useStyles = makeStyles((theme) => ({
       margin: '0 auto',
       width: 1280
     }
+  },
+  link: {
+    display: 'flex',
+    alignItems: 'center'
   }
 }))

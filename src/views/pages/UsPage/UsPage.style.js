@@ -4,39 +4,30 @@ import { makeStyles } from '@material-ui/core'
 // import luisProfile from '~/assets/luisbarrionuevo.jpg'
 export const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    minHeight: '72vh',
+    minHeight: '86.4vh',
     backgroundColor: theme.palette.background.default,
     margin: theme.spacing(2),
     display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    paddingTop: 100,
     flexDirection: 'column',
-    [theme.breakpoints.up('lg')]: {
-      flexDirection: 'row'
+    [theme.breakpoints.up('md')]: {
+      paddingTop: 150
     }
   },
   container: {
     alignItems: 'center',
-    justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
     display: 'flex',
-    flexDirection: 'column',
-    marginTop: 100,
-    [theme.breakpoints.up('lg')]: {
-      flexDirection: 'row'
-    }
+    flexDirection: 'column'
   },
   card: {
     display: 'flex',
-
     alignItems: 'center',
-    marginBottom: 50,
-    maxWidth: 500
+    marginBottom: 50
   },
   aside: {
-    padding: theme.spacing(2),
-
-    [theme.breakpoints.up('lg')]: { marginLeft: 300 }
-  },
+    padding: theme.spacing(2)
+  }
   // logo: {
   //   background: `url(${logo})`,
   //   width: 150,
