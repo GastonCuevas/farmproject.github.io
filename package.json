@@ -2,6 +2,7 @@
   "name": "proyecto-final",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://gastoncuevas.github.io/farmproject.github.io",
   "dependencies": {
     "@ion-phaser/core": "^1.3.0",
     "@ion-phaser/react": "^1.3.0",
@@ -14,6 +15,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.24.0",
     "clsx": "^1.1.1",
+    "gh-pages": "^4.0.0",
     "phaser": "^3.55.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -27,6 +29,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
