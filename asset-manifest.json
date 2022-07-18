@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/farmproject.github.io/static/js/main.fb6bfc71.chunk.js",
+    "main.js.map": "/farmproject.github.io/static/js/main.fb6bfc71.chunk.js.map",
+    "runtime-main.js": "/farmproject.github.io/static/js/runtime-main.b127a16e.js",
+    "runtime-main.js.map": "/farmproject.github.io/static/js/runtime-main.b127a16e.js.map",
+    "static/css/2.ffb6047d.chunk.css": "/farmproject.github.io/static/css/2.ffb6047d.chunk.css",
+    "static/js/2.c0ce1bb1.chunk.js": "/farmproject.github.io/static/js/2.c0ce1bb1.chunk.js",
+    "static/js/2.c0ce1bb1.chunk.js.map": "/farmproject.github.io/static/js/2.c0ce1bb1.chunk.js.map",
+    "index.html": "/farmproject.github.io/index.html",
+    "static/css/2.ffb6047d.chunk.css.map": "/farmproject.github.io/static/css/2.ffb6047d.chunk.css.map",
+    "static/js/2.c0ce1bb1.chunk.js.LICENSE.txt": "/farmproject.github.io/static/js/2.c0ce1bb1.chunk.js.LICENSE.txt",
+    "static/media/dulceLeche.3687b5ff.jpg": "/farmproject.github.io/static/media/dulceLeche.3687b5ff.jpg",
+    "static/media/icon-farm-3.8b95c210.png": "/farmproject.github.io/static/media/icon-farm-3.8b95c210.png",
+    "static/media/leche.67f16391.jpg": "/farmproject.github.io/static/media/leche.67f16391.jpg",
+    "static/media/queso.99d89827.jpg": "/farmproject.github.io/static/media/queso.99d89827.jpg",
+    "static/media/slick-theme.css": "/farmproject.github.io/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b127a16e.js",
+    "static/css/2.ffb6047d.chunk.css",
+    "static/js/2.c0ce1bb1.chunk.js",
+    "static/js/main.fb6bfc71.chunk.js"
+  ]
+}
