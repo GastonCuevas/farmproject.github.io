@@ -47,7 +47,7 @@ export const DrawerMenu = ({ onClose, openDrawer }) => {
               backgroundSize: 'contain'
             }}
           />
-          <DialogTitle>Gastón's Farm</DialogTitle>
+          <DialogTitle>Herencia</DialogTitle>
         </div>
         <IconButton onClick={onClose}>
           <ChevronLeftIcon />
@@ -80,7 +80,7 @@ export const DrawerMenu = ({ onClose, openDrawer }) => {
         </ListItem>
         <ListItem button className={classes.buttonLinkExternal}>
           <a
-            href='https://wa.me/+5493884373832/?text=Hi,%20I%20would%20like%20to%20know%20more%20about%20your%20products'
+            href='https://wa.me/+5493884373832/?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20sus%20productos%20por%20favor.'
             target='_blank'
             rel='noopener noreferrer'>
             <ListItemIcon>

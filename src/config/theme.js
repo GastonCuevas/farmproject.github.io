@@ -100,6 +100,10 @@ export const theme = createTheme({
   typography: {
     useNextVariants: true,
     fontFamily: 'Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif',
+    // fontFamily: 'Concert One',
+    // fontFamily: 'EB Garamond',
+    // fontFamily: 'Open Sans',
+    // fontFamily: 'Glegoo',
     h1: {
       fontSize: '4rem'
     },
@@ -113,10 +117,10 @@ export const theme = createTheme({
       fontSize: '1.5rem'
     },
     h5: {
-      fontSize: '1.25rem'
+      fontSize: '1.5rem'
     },
     h6: {
-      fontSize: '1rem'
+      fontSize: '1.5rem'
     }
   }
 })

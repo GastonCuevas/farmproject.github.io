@@ -23,7 +23,7 @@ export const NavBar = ({ transparent }) => {
           <MenuIcon />
         </IconButton>
         <Link to={ROUTES.ROOT} className={classes.appName}>
-          Gastón's Farm
+          Herencia
         </Link>
       </Toolbar>
       <DrawerMenu openDrawer={openMenuDrawer} onClose={() => setOpenMenuDrawer(false)} />

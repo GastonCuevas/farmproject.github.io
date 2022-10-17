@@ -43,7 +43,7 @@ export const Footer = ({ altMode }) => {
           <li>
             <a
               className={classes.link}
-              href='https://wa.me/+5493884373832/?text=Hi,%20I%20would%20like%20to%20know%20more%20about%20your%20products'
+              href='https://wa.me/+5493884373832/?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20sus%20productos%20por%20favor.'
               target='_blank'
               rel='noopener noreferrer'>
               <PhoneAndroidIcon />

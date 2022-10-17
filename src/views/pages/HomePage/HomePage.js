@@ -36,9 +36,9 @@ export const HomePage = () => {
   }
 
   const array = [
-    { name: 'Milk 1 liter', image: leche },
-    { name: 'Dulce de leche 200 grams', image: dulceLeche },
-    { name: 'Cheese 250 grams', image: queso }
+    { name: 'Leche 1 litro', image: leche },
+    { name: 'Dulce de leche 200 gramos', image: dulceLeche },
+    { name: 'Queso 250 gramos', image: queso }
   ]
 
   useEffect(() => {
@@ -58,15 +58,15 @@ export const HomePage = () => {
           <div className={classes.previewImage}>
             <div className={classes.containerHeader}>
               <Typography className={classes.title} component='h5'>
-                Gastón's Farm
+                Herencia
               </Typography>
-              <Typography className={classes.subtitle}>The best way to be healty</Typography>
+              <Typography className={classes.subtitle}>Productos regionales lácteos</Typography>
             </div>
           </div>
         </header>
         <div className={classes.bodyContainer}>
           <Typography variant='h5' color='primary'>
-            Products
+            Nuestros Productos
           </Typography>
           <Slider {...settings}>
             {array.map(({ image, name, price = 30 }, i) => (
